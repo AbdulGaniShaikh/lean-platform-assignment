@@ -25,7 +25,7 @@
 ## create a new user
 ### Request
 
-`POST /api/user`
+`POST v1/api/user`
 
 ### Request Body
     {
@@ -47,7 +47,7 @@
 
 ## get a user by id
 ### Request
-`GET /api/users/:userid`
+`GET v1/api/users/:userid`
 
 ### Responses
 
@@ -72,7 +72,7 @@
     }
 ## get a list of all users
 ### Request
-`GET /api/users`
+`GET v1/api/users`
 
 ### Parameters
 | name       | required | default value |
@@ -106,7 +106,7 @@
 ## create new student
 ### Request
 
-`POST /api/student`
+`POST v1/api/student`
 
 ### Request Body
     {
@@ -159,7 +159,7 @@
 
 ## get a list of all students
 ### Request
-`GET /api/students`
+`GET v1/api/students`
 
 ### Parameters
 | name       | required | default value |
@@ -249,7 +249,7 @@
 ## create a new mentor
 ### Request
 
-`POST /api/mentor`
+`POST v1/api/mentor`
 
 ### Request Body
     {
@@ -274,7 +274,7 @@
 
 ## get a mentor by id
 ### Request
-`GET /api/mentors/:mentor_id`
+`GET v1/api/mentors/:mentor_id`
 
 ### Responses
 
@@ -335,7 +335,7 @@
     }
 ## get a list of all mentors
 ### Request
-`GET /api/mentors`
+`GET v1/api/mentors`
 
 ### Parameters
 | name       | required | default value |
@@ -474,7 +474,7 @@
 ## rate a mentor by id
 ### Request
 
-`POST /api/mentors/:mentor_id/rate`
+`POST v1/api/mentors/:mentor_id/rate`
 
 ### Request Body
     {
@@ -505,7 +505,7 @@
 ## add review to a mentor by id
 ### Request
 
-`POST /api/mentors/:mentor_id/review`
+`POST v1/api/mentors/:mentor_id/review`
 
 ### Request Body
     {
