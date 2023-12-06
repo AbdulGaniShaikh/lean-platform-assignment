@@ -39,7 +39,6 @@ public class PopulateDatabase {
         populateMentors();
         populateStudents();
 
-        System.out.println("here");
         recommendStudents();
         reviewMentors();
 //        rateMentors();
